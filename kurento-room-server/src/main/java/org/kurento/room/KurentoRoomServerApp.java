@@ -52,7 +52,7 @@ import com.google.gson.JsonArray;
 public class KurentoRoomServerApp implements JsonRpcConfigurer {
 
   public static final String KMSS_URIS_PROPERTY = "kms.uris";
-  public static final String KMSS_URIS_DEFAULT = "[ \"ws://localhost:8888/kurento\" ]";
+  public static final String KMSS_URIS_DEFAULT = "[ \"wss://kms.myviewboard.com/kurento\" ]";
 
   private static final Logger log = LoggerFactory.getLogger(KurentoRoomServerApp.class);
 
